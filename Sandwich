@@ -43,17 +43,15 @@ public class Main {
             deliveryfee = 3.00;
             System.out.println("Delivery fee is: $" + df.format(deliveryfee));}
 
-        // Prompts for pizza size
-        System.out.print("What size sandwich would you like (diameter in inches)? (4, 6, 8, or 12) " );
+// Prompts for sandwich size
+        System.out.print("What size sandwich would you like (diameter in inches)? (4, 6, or 12) " );
         inches = keyboard.nextInt();
         if (inches == 4 ){
             cost = 4.99; }
         else if (inches == 6){
-            cost = 6.99;}
-        else if (inches == 8){
-            cost = 8.99;}
+            cost = 5.99;}
         else if (inches == 12){
-            cost = 12.99;}
+            cost = 11.99;}
         else if (inches != 4 && inches != 6 && inches != 8 && inches != 12){
             System.out.println("The number you have entered is not allowed, your sandwich must be set to atleast 4 inches. " );
             cost = 12;}
