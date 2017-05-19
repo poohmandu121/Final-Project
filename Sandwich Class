@@ -1,0 +1,19 @@
+package com.company;
+
+
+public class Sandwich {
+
+    public final int BREAD_COUNT = 2;
+
+    public String name;
+
+    public Sandwich(){
+        name = "";
+    }
+
+    public Sandwich(String name){
+        this.name = name;
+    }
+
+
+}
