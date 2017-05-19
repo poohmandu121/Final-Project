@@ -1,0 +1,12 @@
+package com.company;
+
+
+public class TurkeySandwich extends Sandwich {
+
+    public TurkeySandwich(String name){
+        super(name);
+
+
+    }
+
+}
